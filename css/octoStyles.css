@@ -1,13 +1,32 @@
 body {
   color: #333;
-  font-family: Verdana;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
 }
 
-#content {
+#title {
   width: 50%;
-  margin: 0 auto;
+  height: 110px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
-#content p {
+#title h1, #title h2, #title h3, #title h4, #title h5, #title h6 {
+  font-family: 'Amatic SC', cursive;
+}
+#title h1 {
   text-transform: uppercase;
   text-align: center;
+  font-size: 60px;
+  margin: 0;
+}
+#title p {
+  text-transform: uppercase;
+  padding: 0;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
 }
