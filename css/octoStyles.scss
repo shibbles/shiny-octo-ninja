@@ -71,12 +71,12 @@ body {
 
 		#leftEyePupil {
 			position: absolute;
-			width: 20px;
-			height: 20px;
+			width: 15px;
+			height: 15px;
 			@include border-radius(50%);
 			background: black;
 			top: 5px;
-			left: 10px;
+			left: 15px;
 		}
 	}
 
@@ -92,12 +92,12 @@ body {
 
 		#rightEyePupil {
 			position: absolute;
-			width: 20px;
-			height: 20px;
+			width: 15px;
+			height: 15px;
 			@include border-radius(50%);
 			background: black;
 			top: 5px;
-			left: 10px;
+			left: 15px;
 		}	
 	}
 
@@ -119,6 +119,26 @@ body {
 		background: $octoBlue;
 		right: 10px;
 		top: 70px;
+	}
+
+	#mouth {
+		position: absolute;
+		width: 15px;
+		height: 15px;
+		@include border-radius(50%);
+		background: $octoBlue;
+		border: 3px solid black;
+		left: 90px;
+		top: 70px;
+	}
+
+	#mouthMask {
+		position: absolute;
+		width: 30px;
+		height: 20px;
+		background: $octoBlue;
+		left: 90px;
+		top: 62px;
 	}
 
 }

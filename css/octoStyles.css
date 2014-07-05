@@ -65,15 +65,15 @@ body {
 }
 #octo #leftEye #leftEyePupil {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
   background: black;
   top: 5px;
-  left: 10px;
+  left: 15px;
 }
 #octo #rightEye {
   position: absolute;
@@ -90,15 +90,15 @@ body {
 }
 #octo #rightEye #rightEyePupil {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
   background: black;
   top: 5px;
-  left: 10px;
+  left: 15px;
 }
 #octo #leftEyeLid {
   position: absolute;
@@ -123,4 +123,25 @@ body {
   background: #4398cc;
   right: 10px;
   top: 70px;
+}
+#octo #mouth {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background: #4398cc;
+  border: 3px solid black;
+  left: 90px;
+  top: 70px;
+}
+#octo #mouthMask {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  background: #4398cc;
+  left: 90px;
+  top: 62px;
 }
