@@ -1,7 +1,21 @@
+/*---MIXINS---*/
+@mixin border-radius($radius) {
+	-moz-border-radius: $radius; 
+	-webkit-border-radius: $radius; 
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+}
+
+/*---VARIABLES---*/
+$octoBlue: #4398CC;
+
+/*---MAIN STYLES---*/
 body {
 	color: #333;	
 	font-family: 'Quicksand', sans-serif;
 	font-size: 20px;
+	height: 100%;
+	overflow: hidden;
 }
 
 #title {
@@ -32,4 +46,16 @@ body {
 		font-size: 15px;
 		font-weight: bold;
 	}
+}
+
+#octo {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	bottom: -100px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background: $octoBlue;
+	@include border-radius(50%);
 }

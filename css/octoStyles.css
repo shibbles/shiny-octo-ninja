@@ -1,7 +1,12 @@
+/*---MIXINS---*/
+/*---VARIABLES---*/
+/*---MAIN STYLES---*/
 body {
   color: #333;
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
+  height: 100%;
+  overflow: hidden;
 }
 
 #title {
@@ -29,4 +34,19 @@ body {
   text-align: center;
   font-size: 15px;
   font-weight: bold;
+}
+
+#octo {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #4398cc;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
 }
