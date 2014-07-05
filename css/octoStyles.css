@@ -1,0 +1,52 @@
+/*---MIXINS---*/
+/*---VARIABLES---*/
+/*---MAIN STYLES---*/
+body {
+  color: #333;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  height: 100%;
+  overflow: hidden;
+}
+
+#title {
+  width: 50%;
+  height: 110px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#title h1, #title h2, #title h3, #title h4, #title h5, #title h6 {
+  font-family: 'Amatic SC', cursive;
+}
+#title h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 60px;
+  margin: 0;
+}
+#title p {
+  text-transform: uppercase;
+  padding: 0;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#octo {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #4398cc;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
