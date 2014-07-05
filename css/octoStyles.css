@@ -50,3 +50,77 @@ body {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
+#octo #leftEye {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background: white;
+  border: 15px solid #4398cc;
+  left: 0;
+  top: 10px;
+}
+#octo #leftEye #leftEyePupil {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background: black;
+  top: 5px;
+  left: 10px;
+}
+#octo #rightEye {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background: white;
+  border: 15px solid #4398cc;
+  right: 0;
+  top: 10px;
+}
+#octo #rightEye #rightEyePupil {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background: black;
+  top: 5px;
+  left: 10px;
+}
+#octo #leftEyeLid {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background: #4398cc;
+  left: 10px;
+  top: 70px;
+}
+#octo #rightEyeLid {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background: #4398cc;
+  right: 10px;
+  top: 70px;
+}

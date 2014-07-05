@@ -58,4 +58,67 @@ body {
 	margin: auto;
 	background: $octoBlue;
 	@include border-radius(50%);
+
+	#leftEye {
+		position: absolute;
+		width: 60px;
+		height: 60px;
+		@include border-radius(50%);
+		background: white;
+		border: 15px solid $octoBlue;
+		left: 0;
+		top: 10px;
+
+		#leftEyePupil {
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			@include border-radius(50%);
+			background: black;
+			top: 5px;
+			left: 10px;
+		}
+	}
+
+	#rightEye {
+		position: absolute;
+		width: 60px;
+		height: 60px;
+		@include border-radius(50%);
+		background: white;
+		border: 15px solid $octoBlue;
+		right: 0;
+		top: 10px;	
+
+		#rightEyePupil {
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			@include border-radius(50%);
+			background: black;
+			top: 5px;
+			left: 10px;
+		}	
+	}
+
+	#leftEyeLid {
+		position: absolute;
+		width: 90px;
+		height: 90px;
+		@include border-radius(50%);
+		background: $octoBlue;
+		left: 10px;
+		top: 70px;
+	}
+
+	#rightEyeLid {
+		position: absolute;
+		width: 90px;
+		height: 90px;
+		@include border-radius(50%);
+		background: $octoBlue;
+		right: 10px;
+		top: 70px;
+	}
+
 }
