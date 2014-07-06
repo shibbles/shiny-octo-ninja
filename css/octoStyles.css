@@ -63,7 +63,7 @@ body {
   left: 0;
   top: 10px;
 }
-#octo #leftEye #leftEyePupil {
+#octo #leftEye .leftEyePupil {
   position: absolute;
   width: 15px;
   height: 15px;
@@ -88,7 +88,7 @@ body {
   right: 0;
   top: 10px;
 }
-#octo #rightEye #rightEyePupil {
+#octo #rightEye .rightEyePupil {
   position: absolute;
   width: 15px;
   height: 15px;
